@@ -10,6 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  color: white;
 }
 
 .perfil {
@@ -20,9 +21,14 @@ header {
   align-items: center;
 }
 
+nav {
+  background-color: rgb(60, 90, 121); 
+  padding: 10px 0; 
+}
+
 nav ul {
   list-style: none;
-  color: black;
+  color: white;
   display: flex;
   gap: 10%;
   justify-content: space-between;
@@ -30,7 +36,7 @@ nav ul {
 }
 
 nav ul a {
-  color: black;
+  color: white;
   text-decoration: none;
   padding: 8px 12px;
   border-radius: 5px;
@@ -38,7 +44,6 @@ nav ul a {
   font-weight: 500;
 }
 
-/* Solo resaltar al pasar el cursor */
 nav ul a:hover {
   background-color: #395253;
   color: white;
