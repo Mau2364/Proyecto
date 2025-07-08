@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(57, 70, 83);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.perfil {
+  display: flex;
+  margin-top: 15px;
+  margin-right: 15px;
+  gap: 10px;
+  align-items: center;
+}
+.perfil a{
+    color: white;
+    transition: background-color 0.3s;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 24px;
+}
+.perfil a:hover{
+    background-color: #395253;
+}
+
+nav {
+  background-color: rgb(60, 90, 121); 
+  padding: 10px 0; 
+}
+
+nav ul {
+  list-style: none;
+  color: white;
+  display: flex;
+  gap: 10%;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-weight: 500;
+}
+
+nav ul a:hover {
+  background-color: #395253;
+  color: white;
+}
+
+.btn-iniciar {
+  padding: 10px;
+  background-color: #395253;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn-iniciar:hover {
+  background-color: #2f4347;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(57, 70, 83);
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  gap: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+
+main h1{
+    text-align: center;
+}
+
+.crear-reporte {
+  width: 60%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.campo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.campo label {
+  width: 150px;        
+  font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+  flex: 1;               
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.campo textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+div a.ver{
+    color: rgb(40, 24, 133);
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 3s;
+}
+
+div a.ver:hover{
+    background-color: green;
+}
+
+.botones{
+    display: flex;
+}
